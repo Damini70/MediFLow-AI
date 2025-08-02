@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌟 Overview
+MediFlow AI is an intelligent medical triage system that leverages artificial intelligence to analyze patient symptoms, medical history, and vital signs to prioritize patient care. The system reduces emergency room wait times, identifies urgent cases, and provides evidence-based care recommendations.
+🎯 Key Features
 
-## Getting Started
+🧠 AI-Powered Symptom Analysis - Natural Language Processing for symptom extraction and interpretation
+⚡ Real-Time Risk Assessment - Machine Learning algorithms for intelligent triage classification
+📊 Confidence Scoring - Uncertainty quantification for clinical decision support
+🔄 Continuous Learning - Self-improving system with feedback loops
+🎨 Personalized Care - Patient history and demographic-based risk modeling
+📱 Responsive Design - Optimized for desktop, tablet, and mobile devices
+🔐 HIPAA Compliant - Enterprise-grade security and data protection
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🛠 Technology Stack
+Frontend & Backend
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Next.js 14 - React framework with App Router
+TypeScript - Type-safe development
+Tailwind CSS - Utility-first CSS framework
+shadcn/ui - Modern React component library
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Database & Data Management
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+MongoDB - NoSQL database for flexible medical data
+Mongoose - MongoDB object modeling for Node.js
+MongoDB Atlas - Cloud database service
 
-## Learn More
+AI & Machine Learning
 
-To learn more about Next.js, take a look at the following resources:
+Python - AI/ML backend processing
+scikit-learn - Traditional machine learning algorithms
+TensorFlow - Deep learning framework
+spaCy - Natural Language Processing
+FastAPI - Python API framework for AI services
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Authentication & Security
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+NextAuth.js - Authentication for Next.js
+bcryptjs - Password hashing
+jose - JWT handling
 
-## Deploy on Vercel
+UI Components & Visualization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Recharts - Data visualization library
+Lucide React - Icon library
+React Hook Form - Form validation and handling
+Zustand - State management
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Development & Deployment
+
+Vercel - Deployment and hosting platform
+ESLint - Code linting
+Prettier - Code formatting
+Husky - Git hooks
