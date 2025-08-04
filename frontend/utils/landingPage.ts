@@ -1,6 +1,14 @@
 // utils/landingPageData.ts
 import landingImg from '../assets/landing.jpg'
-
+import logoImg from '../assets/logoImg.jpeg'
+export const  logoImage = {
+   image: {
+    src: logoImg,
+    alt: "logo",
+    width: 60,
+    height: 60,
+  },
+}
 export const heroSection = {
   badge: "MEDICAL GUIDANCE PLATFORM / TRIAGE",
   heading: "Enhance symptom assessment with ",

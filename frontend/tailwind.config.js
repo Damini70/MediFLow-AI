@@ -14,6 +14,12 @@ module.exports = {
           light: "#FF6A33",       // Lighter variant
           dark: "#CC3700",        // Darker variant
         },
+        secondary: {
+          DEFAULT: "#1E90FF",     // Secondary base
+          light: "#3CBFFF",       // Lighter variant
+          dark: "#1C75D6",        // Darker variant
+        },
+        //#63C8FF
       },
     },
   },

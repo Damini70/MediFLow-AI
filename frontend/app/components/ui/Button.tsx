@@ -17,7 +17,7 @@ const Button: React.FC<ButtonProps> = ({
   className = "",
   disabled = false,
 }) => {
-  let baseClasses =
+  const baseClasses =
     "px-6 py-3 rounded-lg font-semibold transition shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2";
   let variantClasses = "";
 
