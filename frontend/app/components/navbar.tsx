@@ -10,7 +10,7 @@ const navLinks = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
   { name: 'Services', path: '/services' },
-  { name: 'Help', path: '/contact' },
+  { name: 'Help', path: '/help' },
 ];
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
   const navClasses = `fixed top-0 w-full z-50 transition duration-300 ${
     isScrolled
       ? 'bg-white/30 dark:bg-gray-900/30 backdrop-blur-md shadow-md'
-      : 'bg-secondary'
+      : 'bg-primary'
   }`;
 
   const getLinkClass = () =>

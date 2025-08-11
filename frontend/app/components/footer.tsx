@@ -4,7 +4,7 @@ import { FaSquareXTwitter, FaFacebookMessenger, FaGithub, FaLinkedin } from 'rea
 const Footer = () => {
   return (
     <>
-      <footer className="px-6 py-4 text-gray-600 bg-gray-100 dark:bg-secondary dark:text-white">
+      <footer className="px-6 py-4 text-gray-600 bg-gray-100 dark:bg-primary dark:text-white">
         <div className="grid items-center grid-cols-1 gap-6 px-4 py-10 mx-auto max-w-7xl md:grid-cols-2">
       
           <div className="flex flex-col items-center space-y-2 md:items-start">
