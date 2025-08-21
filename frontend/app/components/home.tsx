@@ -3,10 +3,9 @@ import React from "react";
 import Image from "next/image";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import { heroSection, platformHighlights,tagline } from "../../utils/landingPage";
+import { heroSection, platformHighlights} from "../../utils/landingPage";
 import Button from "./ui/Button";
 
-import Dashboard from "./dashboard";
 export default function LandingPage() {
   return (
     <>
@@ -26,10 +25,10 @@ export default function LandingPage() {
               {heroSection.description}
             </p>
 
-            <Button
+           <Link href="/symptomForm"> <Button
               className="px-6 py-3 font-semibold text-white transition bg-indigo-600 rounded-lg shadow-md hover:bg-indigo-700"
               label={heroSection.ctaText}
-            />
+            /></Link>
           </div>
 
           <div className="mt-12 bg-blue-400 rounded-2xl lg:mt-0">
@@ -55,7 +54,7 @@ export default function LandingPage() {
                   className="p-8 transition-shadow duration-300 bg-white shadow-md rounded-2xl hover:shadow-xl"
                 >
                   <div className="flex items-center justify-center mx-auto mb-4 text-indigo-600 bg-indigo-100 rounded-full w-14 h-14">
-                    {/* Use placeholder icons for now */}
+                   
                     <svg
                       className="w-6 h-6"
                       fill="none"
@@ -121,7 +120,7 @@ export default function LandingPage() {
             and take control of your health.
           </p>
           <Link
-            href="/login"
+            href="/mentalHealth"
             className="px-6 py-3 font-semibold text-blue-700 transition bg-white rounded-lg hover:bg-gray-100"
           >
             Sign Up Free

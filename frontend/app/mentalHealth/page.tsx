@@ -1,10 +1,5 @@
 "use client";
 import { useState } from 'react';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Mental Health Index',
-};
 
 export default function MentalHealthPage() {
   const [text, setText] = useState('');

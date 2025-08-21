@@ -1,6 +1,6 @@
 "use client";
 
-import SymptomForm from "./symptomForm"
+import SymptomForm from "../symptomForm/page"
 import RiskCard from "./riskCard";
 import ConfidenceChart from "./confidenceChart";
 import InsightsList from "./insightList";

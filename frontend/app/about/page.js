@@ -66,13 +66,13 @@ const about = () => {
 
       <main className="min-h-screen text-gray-900 bg-white">
         <section className="relative w-full h-[60vh] md:h-svh">
-          <Image
+          {/* <Image
             src={heroSection.image.src}
             alt="About AI HealthCheck"
             fill
             className="object-cover"
             priority
-          />
+          /> */}
           <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center bg-blue-900/60">
             <h1 className="text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:text-6xl">
               About AI HealthCheck
