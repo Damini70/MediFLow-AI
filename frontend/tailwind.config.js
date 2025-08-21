@@ -10,11 +10,10 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-         DEFAULT: "#1E90FF",     // Secondary base
+          DEFAULT: "#1E90FF",     // Secondary base
           light: "#3CBFFF",       // Lighter variant
-          dark: "#1C75D6",      // Darker variant
+          dark: "#1C75D6",       // Darker variant
         },
-        //#63C8FF
       },
     },
   },
