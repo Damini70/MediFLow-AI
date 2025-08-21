@@ -9,16 +9,19 @@ export const  logoImage = {
     height: 60,
   },
 }
+// Tagline for branding
+export const tagline = "Smarter Healthcare Starts with Smarter Assessment";
+
 export const heroSection = {
-  badge: "MEDICAL GUIDANCE PLATFORM / TRIAGE",
-  heading: "Enhance symptom assessment with ",
-  highlight: "AI-powered virtual triage",
+  badge: "AI-ENABLED MEDICAL GUIDANCE",
+  heading: "Revolutionize your healthcare journey with",
+  highlight: "AI-powered symptom triage",
   description:
-    "Support patients before their visit with symptom analysis and tailored medical guidance using AI-powered virtual triage.",
-  ctaText: "Get in touch",
+    "Empower patients before their clinical visit through intelligent symptom checking, real-time risk evaluation, and actionable insights — all backed by cutting-edge AI.",
+  ctaText: "Request a Demo",
   image: {
     src: landingImg,
-    alt: "AI Virtual Triage Interface",
+    alt: "Virtual Triage Interface Illustration",
     width: 400,
     height: 500,
   },
@@ -26,18 +29,18 @@ export const heroSection = {
 
 export const platformHighlights = [
   {
-    icon: "info", // you can replace with a component later if needed
-    title: "Natural Language Symptom Input",
-    description: "Describe what you're feeling in plain language - our AI does the rest.",
+    icon: "info",
+    title: "Conversational Symptom Input",
+    description: "Simply describe your symptoms in everyday language — our AI interprets and evaluates them instantly.",
   },
   {
-    icon: "eye", // placeholder
-    title: "AI-Based Risk Assessment",
-    description: "Receive an instant analysis of your condition with confidence scores.",
+    icon: "eye",
+    title: "Real-Time Risk Evaluation",
+    description: "Get immediate analysis with confidence scores to guide your next steps in care.",
   },
   {
-    icon: "check", // placeholder
-    title: "Personalized Insights",
-    description: "Care tailored to your age, gender, history, and vitals - securely handled.",
+    icon: "check",
+    title: "Tailored Medical Insights",
+    description: "Receive guidance personalized to your age, gender, history, and vital signs — all handled securely.",
   },
 ];

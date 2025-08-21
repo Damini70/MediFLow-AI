@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import { heroSection, platformHighlights } from "../../utils/landingPage";
+import { heroSection, platformHighlights,tagline } from "../../utils/landingPage";
 import Button from "./ui/Button";
 
 export default function LandingPage() {
@@ -16,7 +16,7 @@ export default function LandingPage() {
         {/* Text Side */}
         <div className="max-w-xl">
           <p className="mb-2 text-sm font-medium tracking-wider text-gray-600">
-            {heroSection.badge}
+            {tagline}
           </p>
           <h1 className="mb-6 text-4xl font-bold text-gray-900 lg:text-5xl">
             {heroSection.heading}
