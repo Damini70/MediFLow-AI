@@ -1,8 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import Navbar from "./navbar";
-import Footer from "./footer";
 import { heroSection, platformHighlights} from "../../utils/landingPage";
 import Button from "./ui/Button";
 
@@ -10,7 +8,6 @@ export default function LandingPage() {
   return (
     <>
       <div className="min-h-screen text-gray-800 bg-white">
-        <Navbar />
 
         <section className="flex flex-col items-center justify-between min-h-screen px-6 py-16 bg-white pt-28 lg:flex-row lg:px-20">
           <div className="max-w-xl">
@@ -126,7 +123,7 @@ export default function LandingPage() {
             Sign Up Free
           </Link>
         </section>
-        <Footer />
+
       </div>
     </>
   );
